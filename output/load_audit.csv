@@ -1,0 +1,13 @@
+file_name,rows_loaded,columns,status
+analysis.xlsx,1288,3,SUCCESS
+balancesheet.xlsx,1288,5,SUCCESS
+cashflow.xlsx,1288,5,SUCCESS
+companies.xlsx,92,4,SUCCESS
+documents.xlsx,92,2,SUCCESS
+financial_ratios.xlsx,1288,5,SUCCESS
+market_cap.xlsx,92,3,SUCCESS
+peer_groups.xlsx,92,2,SUCCESS
+profitandloss.xlsx,1288,5,SUCCESS
+prosandcons.xlsx,92,3,SUCCESS
+sectors.xlsx,8,1,SUCCESS
+stock_prices.xlsx,5520,3,SUCCESS
