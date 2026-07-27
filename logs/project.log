@@ -68,3 +68,14 @@
 2026-07-27 18:13:42.447 | INFO     | __main__:load_table:27 - sectors : 8 rows loaded
 2026-07-27 18:13:42.517 | INFO     | __main__:load_table:27 - stock_prices : 5520 rows loaded
 2026-07-27 18:13:42.521 | INFO     | __main__:load_table:27 - peer_groups : 92 rows loaded
+2026-07-27 18:29:02.037 | INFO     | __main__:load_table:27 - companies : 92 rows loaded
+2026-07-27 18:29:02.059 | INFO     | __main__:load_table:27 - profitandloss : 1288 rows loaded
+2026-07-27 18:29:02.079 | INFO     | __main__:load_table:27 - balancesheet : 1288 rows loaded
+2026-07-27 18:29:02.099 | INFO     | __main__:load_table:27 - cashflow : 1288 rows loaded
+2026-07-27 18:29:02.117 | INFO     | __main__:load_table:27 - analysis : 1288 rows loaded
+2026-07-27 18:29:02.122 | INFO     | __main__:load_table:27 - documents : 92 rows loaded
+2026-07-27 18:29:02.126 | INFO     | __main__:load_table:27 - prosandcons : 92 rows loaded
+2026-07-27 18:29:02.127 | INFO     | __main__:load_table:27 - sectors : 8 rows loaded
+2026-07-27 18:29:02.195 | INFO     | __main__:load_table:27 - stock_prices : 5520 rows loaded
+2026-07-27 18:29:02.199 | INFO     | __main__:load_table:27 - peer_groups : 92 rows loaded
+2026-07-27 18:29:44.392 | INFO     | __main__:save_ratios:102 - 1288 ratio records saved.

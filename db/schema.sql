@@ -216,3 +216,22 @@ ON stock_prices(company_id);
 
 CREATE INDEX IF NOT EXISTS idx_peer_ticker
 ON peer_groups(ticker);
+----------------------------------------------------
+-- FINANCIAL RATIOS
+----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS financial_ratios (
+
+    company_id INTEGER,
+
+    year INTEGER,
+
+    net_profit_margin_pct REAL,
+
+    debt_to_equity REAL,
+
+    asset_turnover REAL,
+
+    earnings_per_share REAL
+
+);
