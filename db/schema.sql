@@ -222,16 +222,47 @@ ON peer_groups(ticker);
 
 CREATE TABLE IF NOT EXISTS financial_ratios (
 
-    company_id INTEGER,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
 
-    year INTEGER,
+    company_id INTEGER NOT NULL,
+
+    year INTEGER NOT NULL,
 
     net_profit_margin_pct REAL,
 
+    operating_profit_margin_pct REAL,
+
+    return_on_equity_pct REAL,
+
+    return_on_capital_employed_pct REAL,
+
+    return_on_assets_pct REAL,
+
     debt_to_equity REAL,
+
+    interest_coverage REAL,
+
+    interest_coverage_label TEXT,
+
+    high_leverage_flag INTEGER,
 
     asset_turnover REAL,
 
-    earnings_per_share REAL
+    earnings_per_share REAL,
+
+    free_cash_flow REAL,
+
+    capex_intensity REAL,
+
+    revenue_cagr_5yr REAL,
+
+    pat_cagr_5yr REAL,
+
+    eps_cagr_5yr REAL,
+
+    composite_quality_score REAL,
+
+    FOREIGN KEY(company_id)
+        REFERENCES companies(company_id)
 
 );
